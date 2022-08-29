@@ -280,11 +280,11 @@
     <div style="background-image: url(Message.jpg); background-repeat: no-repeat; background-size: 100%; padding: 10px;">
     <div id="comment">
       
-      <form action="mailto:yohana_andrew129@yahoo.com" method="POST" enctype="multipart/form-data" name="EmailForm" >
+      <form action="message.php" method="POST" enctype="multipart/form-data" name="EmailForm" >
         <fieldset>
           <legend><b>Contact me</b></legend>
-          <p>Your name: <input type="text" name=" customer-name" placeholder="Enter your name here" required></p>
-          <p>Your email: <input type="email" name="customer-name" placeholder="example@gmail.com" required></p>
+          <p>Your name: <input type="text" name="name" placeholder="Enter your name here" required></p>
+          <p>Your email: <input type="email" name="email" placeholder="example@gmail.com" required></p>
           <p>Your message:</p>
           <textarea id="txt" name="message" rows="4" cols="30" placeholder="Type your message here" maxlength="1000"></textarea><br><br>
           <input type="submit" name="EmailForm" value="Submit" id="btn"> <input type="reset" id="btn">
